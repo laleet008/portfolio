@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+.image {
+  height: 734px;
+}
+
+.h1 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -270px;
+  left: 200px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.h2 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
+  animation-name: text;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -470px;
+  right: -20px;
+  text-align: left;
+  color: rgba(24, 16, 85, 0.89);
+}
+
+.explore {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
+  animation-name: text;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -520px;
+
+  left: 300px;
+  color: rgba(24, 16, 85, 0.89);
+}
+
+.navbar_container {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: "Gabriela", serif;
+  animation-name: text;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -750px;
+}
+
+.navbar_container_1 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: "Gabriela", serif;
+  animation-name: text;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -750px;
+}
+
+.navbar_container_2 {
+  margin: 50px;
+  font-size: 2rem;
+  font-family: "Gabriela", serif;
+  animation-name: text;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: -750px;
+}
+
+.h1 a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: "Permanent Marker", cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(
+    to left,
+    rgba(40, 12, 104, 0.8),
+    rgba(114, 11, 97, 0.6)
+  );
+}
+
+.h2 a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: "Permanent Marker", cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(
+    to left,
+    rgba(9, 23, 104, 0.8),
+    rgba(161, 23, 120, 0.6)
+  );
+}
+
+.explore a {
+  color: rgba(255, 255, 255, 0.8);
+  width: 170px;
+  margin: 50px;
+  font-size: 1.1rem;
+  font-family: "Permanent Marker", cursive;
+  animation-name: text;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  position: relative;
+  top: 20px;
+  left: -7px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 11px 24px;
+  box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.35);
+  border-radius: 22px;
+  background-image: linear-gradient(
+    to left,
+    rgba(9, 23, 104, 0.8),
+    rgba(161, 23, 120, 0.6)
+  );
+}
+
+.sidebar_nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  padding-right: 30px;
+}
+
+.sidebar_nav_items {
+  margin-right: 40px;
+}
+
+.sidebar_nav .links {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.navbar_container_1 .links {
+  color: rgb(29, 7, 107);
+}
+.navbar_container_2 .links {
+  color: rgb(20, 4, 56);
+}
+
+@keyframes text {
+  from {
+    transform: translateY(20px);
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 400px) {
+  .image {
+    height: 600px;
+  }
+  .h1 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+  }
+  .h2 a {
+    width: 120px;
+    font-size: 0.8rem;
+    margin: 20px;
+    padding: 9px 18px;
+    position: relative;
+    top: 20px;
+    left: 17px;
+  }
+}

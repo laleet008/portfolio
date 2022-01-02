@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Roboto+Mono:wght@300&display=swap");
+
+.sidebar {
+  height: 100vh;
+  /* margin-top: -50px; */
+  width: 100%;
+  background-color: #e0e1e2;
+  overflow-y: scroll;
+  text-align: center;
+}
+.sidebar > h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.h1_links {
+  text-decoration: none;
+  font-family: "Grechen Fuemen", cursive;
+  font-weight: bolder;
+  color: rgba(17, 6, 122, 0.959);
+  font-size: 42px;
+}
+
+.detail-icon {
+  font-size: 16px;
+  color: rgb(60, 49, 160);
+  margin-right: 6px;
+}
+
+/*  */
+.sidebar > p {
+  /* margin-top: 30px; */
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  /* font-style: italic; */
+}
+
+.sidebar-nav {
+  margin-left: -30px;
+  margin-top: 30px;
+  text-align: center;
+}
+.sidebar-nav-items {
+  margin-bottom: 15px;
+}
+.sidebar > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.links {
+  text-decoration: none;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-family: "Roboto Mono", monospace;
+  color: #000;
+  font-size: larger;
+  line-height: 1.4rem;
+}
+.sidebar-nav-icons {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+.flip-card-back {
+  margin-top: 50px;
+}
+.fa-lg {
+  text-decoration: none;
+  color: rgb(15, 42, 196);
+}
+.sidebar-nav-items:hover {
+  background-color: rgb(116, 116, 136);
+  color: #fff;
+}
+
+.links:hover {
+  /* color:rgb(121, 189, 252); */
+  color: rgb(121, 189, 252);
+  text-decoration: none;
+}
+.fas:hover {
+  color: rgb(39, 206, 48);
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.h1_links:hover {
+  color: #000;
+}
+
+.footer-container {
+  height: 80px;
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.footer-container p {
+  color: #fff;
+}
+/*//////////////media ////////////////////*/
+@media (max-width: 980px) {
+  .sidebar {
+    width: 106vw;
+  }
+  .h1_links {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 106vw;
+  }
+  .h1_links {
+    font-size: 28px;
+  }
+  .links {
+    display: none;
+  }
+  .fas {
+    transform: scale(1.3);
+    margin: 5px 0px;
+  }
+  .gmail {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 370px) {
+  .sidebar {
+    width: 106vw;
+  }
+  .h1_links {
+    font-size: 24px;
+  }
+  .links {
+    font-size: 16px;
+  }
+  .fas {
+    transform: scale(1.1);
+    margin: 5px 0px;
+  }
+}
